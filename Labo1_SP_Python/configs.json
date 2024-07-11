@@ -1,0 +1,89 @@
+{
+    "especialidades": [
+        "Medico Clinico",
+        "Odontologia",
+        "Psicologia",
+        "Traumatologia"
+    ],
+    "obras_sociales": {
+        "Swiss Medical": {},
+        "Apres": {},
+        "PAMI": {},
+        "Particular": {}
+    },
+    "pacientes": [
+        {
+            "id": 1,
+            "nombre": "Gege",
+            "apellido": "Akutami",
+            "dni": "12345678",
+            "edad": 30,
+            "fecha_registro": "01-07-2023",
+            "obra_social": "Swiss Medical"
+        },
+        {
+            "id": 2,
+            "nombre": "Hiromi",
+            "apellido": "Arakawa",
+            "dni": "87654321",
+            "edad": 66,
+            "fecha_registro": "02-07-2023",
+            "obra_social": "PAMI"
+        },
+        {
+            "id": 3,
+            "nombre": "dasdas",
+            "apellido": "asdasdasdasd",
+            "dni": "12121212",
+            "edad": 20,
+            "fecha_registro": "12-05-2023",
+            "obra_social": "Swiss Medical"
+        },
+        {
+            "id": 4,
+            "nombre": "nana",
+            "apellido": "nana",
+            "dni": "14141414",
+            "edad": 35,
+            "fecha_registro": "12-08-2023",
+            "obra_social": "Particular"
+        },
+        {
+            "id": 5,
+            "nombre": "lala",
+            "apellido": "lala",
+            "dni": "15151515",
+            "edad": 50,
+            "fecha_registro": "12-08-2023",
+            "obra_social": "Particular"
+        },
+        {
+            "id": 6,
+            "nombre": "gfdfgdfd",
+            "apellido": "dxgdgfd",
+            "dni": "16161616",
+            "edad": 30,
+            "fecha_registro": "12-05-2023",
+            "obra_social": "Particular"
+        },
+        {
+            "id": 7,
+            "nombre": "asdsad",
+            "apellido": "asddsa",
+            "dni": "55555555",
+            "edad": 18,
+            "fecha_registro": "12-05-2023",
+            "obra_social": "Swiss Medical"
+        }
+    ],
+    "turnos": [
+        {
+            "id": 1,
+            "id_paciente": 1,
+            "especialidad": "Odontologia",
+            "estado": "ACTIVO",
+            "monto": 2000.0,
+            "obra_social": "Swiss Medical"
+        }
+    ]
+}
